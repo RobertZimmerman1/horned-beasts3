@@ -8,9 +8,7 @@ function Hornedbeast (props) {
       {/* <img>{props.imageUrl}</img> */}
       <p>{props.description}</p>
     </div>
-  )
+  );
 }
-
-
 
 export default Hornedbeast;
