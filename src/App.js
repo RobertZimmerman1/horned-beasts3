@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './header'
+import Main from './main'
+import Footer from './footer'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello try nine
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Header title='This is Where the Title Would Go' />
+    <Main />
+    <Footer author='Robert Zimmerman'/>
+    </>
+  )
 }
 
 export default App;
